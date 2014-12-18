@@ -13,3 +13,13 @@ Themes that I like and use on a regular basis. Currently using the Dusk - Custom
 1. Themes should be installed in Xcode's `FontAndColorThemes` folder (`~/Library/Developer/Xcode/UserData/FontAndColorThemes/`).
 2. Restart Xcode.
 3. Enjoy.
+
+
+## Terminal Color Themes
+Themes that I like and use on a regular basis. Currently using "The Grid", inspired by Tron Legacy.
+
+### Installing themes
+1. Open the "Profiles" tab in Terminal Preferences
+2. Use the gear icon at the bottom of the profile selector, and select "Import…".
+3. Import the theme you'd like, and select it.
+4. Done.
