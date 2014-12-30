@@ -49,3 +49,8 @@ QuickLook is pretty handy, but it can be pretty dumb at times, and isn't that us
 [ql_1]:https://github.com/whomwah/qlstephen
 
 
+## Xcode Tools
+
+Xcode Snippets are awesome. NSHipster has a [great article][xcode_1] on installing and using them, as well as a repo of useful snippets.
+
+[xcode_1]:http://nshipster.com/xcode-snippets/
