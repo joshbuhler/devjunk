@@ -1,7 +1,7 @@
 devjunk
 =======
 
-Small collection of dev junk I find useful and tend to setup on each of my dev machines. Color themes, scripts, config files, etc. Everything is grouped into different folders, and some basic info about what's there is listed below.
+Small collection of dev junk I find useful and tend to setup on each of my dev machines. Color themes, scripts, config files, etc. Everything requiring a file is grouped into different folders, and some basic info about what's there is listed below. Honestly, this is more of a reference for me than anything else.
 
 ## Bash
 Small little additions to a `.bash_profile` file. Pretty sparse since I just cleaned a lot of old stuff out of it.
@@ -53,4 +53,17 @@ QuickLook is pretty handy, but it can be pretty dumb at times, and isn't that us
 
 Xcode Snippets are awesome. NSHipster has a [great article][xcode_1] on installing and using them, as well as a repo of useful snippets.
 
+### Plugins
+Xcode also has a relatively unknown plugin mechanism. [Alcatraz][xcode_2] exists to make using these plugins easier and more common. Currently I use the following plugins:
+
+* BBUDebuggerTuckAway
+* CocoaPods
+* DerivedData Exterminator
+* OpenInTerminal
+* SCXcodeSwitchExpander
+* VVDocumenter-Xcode
+
+These plugins can all be found using Alcatraz from within Xcode.
+
 [xcode_1]:http://nshipster.com/xcode-snippets/
+[xcode_2]:http://alcatraz.io/
