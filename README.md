@@ -14,7 +14,7 @@ A small command called `tabname` that allows you to name your tabs in Terminal. 
 ## ColorThemes
 
 ### Xcode
-Themes that I like and use on a regular basis. Currently using the Dusk - Custom theme. (Real original name, right?)
+Themes that I like and use on a regular basis. Currently using the `_Gotham.xccolortheme`
 
 #### Installing themes
 1. Themes should be installed in Xcode's `FontAndColorThemes` folder (`~/Library/Developer/Xcode/UserData/FontAndColorThemes/`).
