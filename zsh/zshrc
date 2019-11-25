@@ -1,0 +1,44 @@
+# Runs a carthage update. Use from the root of your project.
+alias cupdate="carthage update --use-submodules --no-build --new-resolver"
+
+# Clears the local Carthage files. Use from the root of your project.
+alias cartclean="rm Cartfile.resolved; rm -rf Carthage"
+
+# Clears the local Carthage files, then runs a carthage update. Use from the root of your project.
+alias cartfull="cartclean; cupdate"
+
+# Nukes the Carthage cache files. Use anywhere.
+alias cartnuke="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
+
+# Shortcut for adding your SSH key to the Keychain.
+alias addSSHKey="ssh-add -K ~/.ssh/id_rsa; ssh-add -K ~/.ssh/id_rsa_joshbuhler"
+
+# Nukes the Xcode derived data. Use when Xcode is closed for best results.
+alias nuke="rm -rf ~/Library/Developer/Xcode/DerivedData/"
+
+# Nukes the Xcode symbolication cache info. Useful if crash symbolication is going screwy.
+alias clearSymCache="sudo rm -rf /System/Library/Caches/com.apple.coresymbolicationd/"
+
+# Fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"
+
+# Use Sublime Text as default editor
+export EDITOR='subl -w'
+
+# Powerline - https://github.com/b-ryan/powerline-shell
+function powerline_precmd() {
+    PS1="$(powerline-shell --shell zsh $?)"
+}
+
+function install_powerline_precmd() {
+  for s in "${precmd_functions[@]}"; do
+    if [ "$s" = "powerline_precmd" ]; then
+      return
+    fi
+  done
+  precmd_functions+=(powerline_precmd)
+}
+
+if [ "$TERM" != "linux" ]; then
+    install_powerline_precmd
+fi
