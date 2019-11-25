@@ -1,3 +1,46 @@
+
+## ----- Options ----- ##
+
+# When typing a path, will automatically insert the `cd` at the beginning to switch to the new path
+setopt AUTO_CD
+
+# Auto-correct commands if possible
+setopt CORRECT
+setopt CORRECT_ALL
+
+## ----- History ----- #
+# https://scriptingosx.com/2019/06/moving-to-zsh-part-3-shell-options/
+
+# Where the history is stored
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+
+# Share history across multiple zsh sessions
+setopt SHARE_HISTORY
+
+# Append to history
+setopt APPEND_HISTORY
+
+# Adds commands as they are typed, not at shell exit
+setopt INC_APPEND_HISTORY
+
+# Expire duplicates first
+setopt HIST_EXPIRE_DUPS_FIRST 
+
+# Do not store duplications
+setopt HIST_IGNORE_DUPS
+
+# Ignore duplicates when searching
+setopt HIST_FIND_NO_DUPS
+
+# Removes blank lines from history
+setopt HIST_REDUCE_BLANKS
+
+# When using !! to auto-complete the last command run, this will only add the command, not run it. You'll still need to hit enter to run it.
+setopt HIST_VERIFY
+
+
+## ----- Aliases ----- ##
+
 # Runs a carthage update. Use from the root of your project.
 alias cupdate="carthage update --use-submodules --no-build --new-resolver"
 
