@@ -64,9 +64,6 @@ alias nuke="rm -rf ~/Library/Developer/Xcode/DerivedData/"
 # Nukes the Xcode symbolication cache info. Useful if crash symbolication is going screwy.
 alias clearSymCache="sudo rm -rf /System/Library/Caches/com.apple.coresymbolicationd/"
 
-# Fastlane
-export PATH="$HOME/.fastlane/bin:$PATH"
-
 # Use Sublime Text as default editor
 export EDITOR='subl -w'
 
