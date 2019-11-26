@@ -2,7 +2,9 @@
 ## ----- Options ----- ##
 
 # When typing a path, will automatically insert the `cd` at the beginning to switch to the new path
-setopt AUTO_CD
+# Disabling for now though, as it was conflicting w/ commands that happened to be named the same as
+# a directory. (e.g. Fastlane)
+#setopt AUTO_CD
 
 # Auto-correct commands if possible
 setopt CORRECT
