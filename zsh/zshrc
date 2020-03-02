@@ -64,8 +64,12 @@ alias nuke="rm -rf ~/Library/Developer/Xcode/DerivedData/"
 # Nukes the Xcode symbolication cache info. Useful if crash symbolication is going screwy.
 alias clearSymCache="sudo rm -rf /System/Library/Caches/com.apple.coresymbolicationd/"
 
+# Cleans up the git mess left by a Carthage update
+alias cartgit="git reset HEAD Carthage*; git reset HEAD .gitmodules"
+
 # Fastlane
 #export PATH="$HOME/.fastlane/bin:$PATH"
+
 # Use Sublime Text as default editor
 export EDITOR='subl -w'
 
