@@ -17,7 +17,7 @@ setopt CORRECT_ALL
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 
 # Share history across multiple zsh sessions
-setopt SHARE_HISTORY
+# setopt SHARE_HISTORY
 
 # Append to history
 setopt APPEND_HISTORY
