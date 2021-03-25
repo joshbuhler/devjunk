@@ -3,13 +3,6 @@ devjunk
 
 Small collection of dev junk I find useful and tend to setup on each of my dev machines. Color themes, scripts, config files, etc. Everything requiring a file is grouped into different folders, and some basic info about what's there is listed below. Honestly, this is more of a reference for me than anything else.
 
-## Bash
-Small little additions to a `.bash_profile` file. Pretty sparse since I just cleaned a lot of old stuff out of it.
-
-### tabname
-A small command called `tabname` that allows you to name your tabs in Terminal. Usage is pretty simple:
-
-    tabname "The Name of this tab"
 
 ## Xcode
 Customizations to Xcode, including color themes and key bindings. Currently using the `_Gotham.xccolortheme`
@@ -35,16 +28,15 @@ Custom key bindings. Copy to `~/Library/Application Support/Sublime Text 3/Packa
 
 You'll also want to setup the command-line tool: https://www.sublimetext.com/docs/command_line.html#mac
 
-
 ## Git
 A basic gitconfig file I use. Copy this file to `~/.gitconfig`, or copy/paste what you want from here into your existing `.gitconfig` file. Basically, it adds:
 
 * Color coding
 * A few shortcut aliases
 * Setup for using [P4Merge][p4] as your mergetool
-* [Atom][atom] as your default editor
+* [Sublime Text][subl] as your default editor
 
-[atom]:http://atom.io
+[subl]:https://www.sublimetext.com/
 [p4]:http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
 
 

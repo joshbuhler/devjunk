@@ -1,9 +1,0 @@
-tabname () {
-  echo -e "\033];$1\007";
-}
-function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
-
-nukederived ()
-{
-    rm -rf ~/Library/Developer/Xcode/DerivedData
-}
