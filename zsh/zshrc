@@ -1,3 +1,5 @@
+# Copy to ~/.zshrc
+
 
 ## ----- Options ----- ##
 
@@ -9,6 +11,7 @@
 # Auto-correct commands if possible
 setopt CORRECT
 setopt CORRECT_ALL
+CORRECT_IGNORE_FILE='.*'
 
 ## ----- History ----- #
 # https://scriptingosx.com/2019/06/moving-to-zsh-part-3-shell-options/
@@ -56,7 +59,7 @@ alias cartfull="cartclean; cupdate"
 alias cartnuke="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
 
 # Shortcut for adding your SSH key to the Keychain.
-alias addSSHKey="ssh-add -K ~/.ssh/id_rsa; ssh-add -K ~/.ssh/id_rsa_joshbuhler"
+#alias addSSHKey="ssh-add -K ~/.ssh/id_rsa; ssh-add -K ~/.ssh/id_rsa_extraKeys"
 
 # Nukes the Xcode derived data. Use when Xcode is closed for best results.
 alias nuke="rm -rf ~/Library/Developer/Xcode/DerivedData/"
@@ -74,19 +77,19 @@ alias cartgit="git reset HEAD Carthage*; git reset HEAD .gitmodules"
 export EDITOR='subl -w'
 
 # Powerline - https://github.com/b-ryan/powerline-shell
-function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
-}
+# function powerline_precmd() {
+#     PS1="$(powerline-shell --shell zsh $?)"
+# }
 
-function install_powerline_precmd() {
-  for s in "${precmd_functions[@]}"; do
-    if [ "$s" = "powerline_precmd" ]; then
-      return
-    fi
-  done
-  precmd_functions+=(powerline_precmd)
-}
+# function install_powerline_precmd() {
+#   for s in "${precmd_functions[@]}"; do
+#     if [ "$s" = "powerline_precmd" ]; then
+#       return
+#     fi
+#   done
+#   precmd_functions+=(powerline_precmd)
+# }
 
-if [ "$TERM" != "linux" ]; then
-    install_powerline_precmd
-fi
+# if [ "$TERM" != "linux" ]; then
+#     install_powerline_precmd
+# fi
