@@ -70,6 +70,16 @@ alias clearSymCache="sudo rm -rf /System/Library/Caches/com.apple.coresymbolicat
 # Cleans up the git mess left by a Carthage update
 alias cartgit="git reset HEAD Carthage*; git reset HEAD .gitmodules"
 
+# Scans a git repository and lists objects in it by size. You can then using something like BFG to cleanup the un-needed crud.
+# Requires that you first `brew install coreutils`
+# https://rtyley.github.io/bfg-repo-cleaner/
+alias gitsize="git rev-list --objects --all |
+  git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+  sed -n 's/^blob //p' |
+  sort --numeric-sort --key=2 |
+  gcut -c 1-12,41- |
+  $(command -v gnumfmt || echo gnumfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest"
+
 # Fastlane
 #export PATH="$HOME/.fastlane/bin:$PATH"
 
