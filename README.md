@@ -44,3 +44,4 @@ A basic gitconfig file I use. Copy this file to `~/.gitconfig`, or copy/paste wh
 QuickLook is pretty handy, but it can be pretty dumb at times, and isn't that useful if it doesn't recognize a file's extension, or if a file doesn't have one. The [QLStephen plugin][ql_1] is great for cases like this. If the file you're trying to take a look at is a plaintext file, you'll get a preview you can actually look at in Finder.
 
 [ql_1]:https://github.com/whomwah/qlstephen
+
