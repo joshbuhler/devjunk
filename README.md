@@ -23,10 +23,19 @@ Themes that I like and use on a regular basis. Currently using "The Grid", a the
 3. Import the theme you'd like, and select it.
 4. Done.
 
+
 ## Sublime Text
+
+### Key Bindings
 Custom key bindings. Copy to `~/Library/Application Support/Sublime Text 3/Packages/User`
 
 You'll also want to setup the command-line tool: https://www.sublimetext.com/docs/command_line.html#mac
+
+### Packages
+Install Package Control: https://packagecontrol.io/
+
+Currently installed packages are included in this repo, but they should be updated after being installed. They should be installed to `~/Library/Application Support/Sublime Text 3/Installed Packages/`
+
 
 ## Git
 A basic gitconfig file I use. Copy this file to `~/.gitconfig`, or copy/paste what you want from here into your existing `.gitconfig` file. Basically, it adds:
