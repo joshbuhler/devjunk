@@ -45,33 +45,33 @@
 	<key>DVTMarkupTextEmphasisColor</key>
 	<string>0.537061 0.783555 0.764512 1</string>
 	<key>DVTMarkupTextEmphasisFont</key>
-	<string>.SFNS-RegularItalic - 10.0</string>
+	<string>.SFNS-RegularItalic - 11.0</string>
 	<key>DVTMarkupTextInlineCodeColor</key>
 	<string>0.537061 0.783555 0.764512 0.7</string>
 	<key>DVTMarkupTextLinkColor</key>
 	<string>0.906429 0.651378 0.20576 1</string>
 	<key>DVTMarkupTextLinkFont</key>
-	<string>.SFNS-Regular - 10.0</string>
+	<string>.SFNS-Regular - 11.0</string>
 	<key>DVTMarkupTextNormalColor</key>
 	<string>0.537061 0.783555 0.764512 1</string>
 	<key>DVTMarkupTextNormalFont</key>
-	<string>.SFNS-Regular - 10.0</string>
+	<string>.SFNS-Regular - 11.0</string>
 	<key>DVTMarkupTextOtherHeadingColor</key>
 	<string>0.537061 0.783555 0.764512 0.5</string>
 	<key>DVTMarkupTextOtherHeadingFont</key>
-	<string>.SFNS-Regular - 14.0</string>
+	<string>.SFNS-Regular - 15.4</string>
 	<key>DVTMarkupTextPrimaryHeadingColor</key>
 	<string>0.537061 0.783555 0.764512 1</string>
 	<key>DVTMarkupTextPrimaryHeadingFont</key>
-	<string>.SFNS-Regular - 24.0</string>
+	<string>.SFNS-Regular - 26.4</string>
 	<key>DVTMarkupTextSecondaryHeadingColor</key>
 	<string>0.537061 0.783555 0.764512 1</string>
 	<key>DVTMarkupTextSecondaryHeadingFont</key>
-	<string>.SFNS-Regular - 18.0</string>
+	<string>.SFNS-Regular - 19.8</string>
 	<key>DVTMarkupTextStrongColor</key>
 	<string>0.537061 0.783555 0.764512 1</string>
 	<key>DVTMarkupTextStrongFont</key>
-	<string>.SFNS-Bold - 10.0</string>
+	<string>.SFNS-Bold - 11.0</string>
 	<key>DVTScrollbarMarkerAnalyzerColor</key>
 	<string>0.403922 0.372549 1 1</string>
 	<key>DVTScrollbarMarkerBreakpointColor</key>
@@ -105,11 +105,11 @@
 		<key>xcode.syntax.character</key>
 		<string>0.149605 0.604205 0.462929 1</string>
 		<key>xcode.syntax.comment</key>
-		<string>0.325846 0.325846 0.325846 1</string>
+		<string>0.476435 0.476435 0.476435 1</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>0.325846 0.325846 0.325846 1</string>
+		<string>0.476435 0.476435 0.476435 1</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>0.325846 0.325846 0.325846 1</string>
+		<string>0.476435 0.476435 0.476435 1</string>
 		<key>xcode.syntax.declaration.other</key>
 		<string>0.254902 0.631373 0.752941 1</string>
 		<key>xcode.syntax.declaration.type</key>
@@ -158,59 +158,59 @@
 	<key>DVTSourceTextSyntaxFonts</key>
 	<dict>
 		<key>xcode.syntax.attribute</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.character</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.comment</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.comment.doc</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.comment.doc.keyword</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.declaration.other</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.declaration.type</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.class</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.class.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.constant</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.constant.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.function</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.function.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.macro</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.macro.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.type</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.type.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.variable</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.identifier.variable.system</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.keyword</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.mark</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.markup.code</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.number</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.plain</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.preprocessor</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.string</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 		<key>xcode.syntax.url</key>
-		<string>Menlo-Regular - 11.0</string>
+		<string>Menlo-Regular - 12.0</string>
 	</dict>
 </dict>
 </plist>
