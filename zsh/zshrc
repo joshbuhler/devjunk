@@ -62,7 +62,7 @@ alias cartnuke="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
 alias spmnuke="rm -rf ~/Library/Developer/Xcode/DerivedData/;rm -rf ~/Library/Caches/org.swift.swiftpm/"
 
 # Shortcut for adding your SSH key to the Keychain.
-#alias addSSHKey="ssh-add -K ~/.ssh/id_rsa; ssh-add -K ~/.ssh/id_rsa_extraKeys"
+alias addSSHKey="ssh-add -K ~/.ssh/id_ed25519_XXXXX; ssh-add -K ~/.ssh/id_ed25519_YYYYY"
 
 # Nukes the Xcode derived data. Use when Xcode is closed for best results.
 alias nuke="rm -rf ~/Library/Developer/Xcode/DerivedData/"
