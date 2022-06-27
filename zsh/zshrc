@@ -47,7 +47,7 @@ setopt HIST_VERIFY
 ## ----- Aliases ----- ##
 
 # Runs a carthage update. Use from the root of your project.
-alias cupdate="carthage update --use-submodules --no-build"
+alias cupdate="carthage update --use-submodules --no-build --use-ssh"
 
 # Clears the local Carthage files. Use from the root of your project.
 alias cartclean="rm Cartfile.resolved; rm -rf Carthage"
