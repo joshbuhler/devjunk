@@ -58,6 +58,9 @@ alias cartfull="cartclean; cupdate"
 # Nukes the Carthage cache files. Use anywhere.
 alias cartnuke="rm -rf ~/Library/Caches/org.carthage.CarthageKit"
 
+# Nukes the Swift Package Manager cache files. Use anywhere.
+alias spmnuke="rm -rf ~/Library/Developer/Xcode/DerivedData/;rm -rf ~/Library/Caches/org.swift.swiftpm/"
+
 # Shortcut for adding your SSH key to the Keychain.
 #alias addSSHKey="ssh-add -K ~/.ssh/id_rsa; ssh-add -K ~/.ssh/id_rsa_extraKeys"
 
