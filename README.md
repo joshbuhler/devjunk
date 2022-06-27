@@ -4,6 +4,11 @@ devjunk
 Small collection of dev junk I find useful and tend to setup on each of my dev machines. Color themes, scripts, config files, etc. Everything requiring a file is grouped into different folders, and some basic info about what's there is listed below. Honestly, this is more of a reference for me than anything else.
 
 
+## General System
+
+### Remove auto-periods with double-spaces
+System Preferences > Keyboard > Text > Add period with double-space.
+
 ## Xcode
 Customizations to Xcode, including color themes and key bindings. Currently using the `_Gotham.xccolortheme`
 
